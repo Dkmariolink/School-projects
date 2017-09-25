@@ -1,2 +1,2 @@
-"# School-projects"  Hello World, git test
-
+"# School-projects"  
+A collection of projects created while in school, C++, Java, Ruby, SQL...
