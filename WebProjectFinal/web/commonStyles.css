@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 24, 2016, 3:07:28 PM
+    Author     : Andrew Legra
+*/
+
+body {
+    font-family: sans-serif;
+    position: relative;
+}
+
+h2 {
+    color:green;
+}
+
+.leftHeading {
+    font-weight: bold;
+    float: left;
+    margin-right: 2em;
+    text-align: left;
+    width: 7em;
+}
+
+#button1 {
+    width: 5em;
+}
+
+.rightButton {
+
+    text-align: right;
+}
+
+form {
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    font-family: sans-serif;
+    font-weight: normal; 
+}
+
+td, th {
+    font-weight: normal;
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
