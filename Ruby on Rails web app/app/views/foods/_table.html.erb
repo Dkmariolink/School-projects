@@ -1,0 +1,25 @@
+<!-- Partial for all table data on HOME page. -->
+<table style="width:95%"><!-- Table for food results and stats. -->
+    <tr><!-- BEGIN table heading -->
+        <th style="width:10%">PHOTO</th>
+        <th style="width:10%">FOODS</th>
+        <th style="width:40%">INGREDIENTS</th>
+        <th style="width:40%">INSTRUCTIONS</th>
+    </tr><!-- END table heading -->
+    <% @foods.each do |f| %> <!-- Table fill recursion. -->
+    <tr><!-- BEGIN table row -->
+        <td><img src="https://www.goodfreephotos.com/albums/vector-images/piece-of-cheese.png" alt="Cheese" height="60px" width="50px"></td>
+        <td><b><%= f.name %></b></td>
+        <td><%= f.ingredients %></td>
+		<td><%= f.instructions %></td>
+	</tr><!-- END table row -->
+	<% end %>
+  <% @drinks.each do |f| %> <!-- Table fill recursion. -->
+  <tr><!-- BEGIN table row -->
+      <td><img src="https://www.goodfreephotos.com/albums/vector-images/piece-of-cheese.png" alt="Cheese" height="60px" width="50px"></td>
+      <td><b><%= f.name %></b></td>
+      <td><%= f.d_ingredients %></td>
+  <td><%= f.d_instructions %></td>
+</tr><!-- END table row -->
+<% end %>
+</table>

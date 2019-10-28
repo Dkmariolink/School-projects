@@ -1,0 +1,402 @@
+/**
+@author The Stake Drivers
+@description   --Since CSS pages can get chaotic, I usually keep everything alphabetical.   -Jake M
+**/
+
+/*Turns off link underlines. ALL PAGES*/
+a { 
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-family: 'Just Another Hand', cursive;
+}
+
+/*Colored boxing that appears in main around headings*/
+.boxedblue {
+    border: 3px;
+    background-color: #6BBAA7;
+}
+
+/*h2 element stylings within boxed CLASS div.*/
+.boxedblue h2 {
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 50px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+/*Alters submit button appearence when hovered over by mouse.*/
+.button:hover {
+    font-weight: bold; 
+}
+
+/*Shrinks button on click for visual aid.*/
+.button:active {
+    transform: scale(.98); 
+}
+
+/*Body background. CONTACT PAGE*/
+.contact-body { 
+    background-image: url("https://static.pexels.com/photos/257794/pexels-photo-257794.jpeg");
+    background-color: #000000;
+    width: 100%;
+    min-height:100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding:0;
+    overflow: scroll;
+}
+
+/*Contact info ID for main in CONTACT PAGE.*/
+#contact { 
+    padding-top: 0px;
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/*Body background. CREATE PAGE*/
+.create-body { 
+    background-image: url("https://static.pexels.com/photos/268328/pexels-photo-268328.jpeg");
+    background-color: #000000;
+    width: 100%;
+    min-height:100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding:0;
+    overflow: scroll;
+}
+
+/*Body background. DRINKS PAGE*/
+.drinks-body { 
+    background-image: url("https://static.pexels.com/photos/6290/alcohol-party-glass-table.jpg");
+    background-color: #000000;
+    width: 100%;
+    min-height:100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding:0;
+    overflow: scroll; 
+}
+
+/*Body background image and settings. FOODS PAGE*/
+.foods-body {
+    background-image: url("https://static.pexels.com/photos/568370/pexels-photo-568370.jpeg");
+    background-color: #000000;
+    width: 100%;
+    min-height:100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding:0;
+    overflow: scroll;
+}
+
+/*Centers footer text and defaults font and size. ALL PAGES*/
+footer { 
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    background: radial-gradient(#FBA100 60%, #bc7901);
+    opacity: 0.95;
+    font-size: 30px;
+    color: white;
+    font-weight: normal;
+    text-shadow: 2px 2px #000000;
+    font-style: italic;
+}
+
+/*Normalizes 'Contact Us' in footer when hovered over by mouse.*/
+footer a:hover{ 
+    font-style: normal;
+}
+
+/*Form left specifications for CREATE PAGE*/
+.formlcreate {
+    width: 42%;
+    display: inline-block;
+    padding-left: 30px;
+    margin-left: 4%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    background: linear-gradient(#2d7a96, #b73587);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+    position: relative;
+    opacity: 1.0;
+    
+}
+
+/*Form right specifications for CREATE PAGE*/
+.formrcreate {
+    width: 42%;
+    display: inline-block;
+    padding-left: 30px;
+    margin-left: 2%;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    background: linear-gradient(#3d8734, #c4cc55);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+    position: relative;
+    opacity: 1.0;
+    
+}
+
+/*TOP half form specifications. DRINKS PAGE*/
+.formtdrink {
+    width: 80%;
+    height: 90%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-left: 8.7%;
+    margin-top: -24px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    background: linear-gradient(#7f47b7, #722d84);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+    position: relative;
+    opacity: 1.0;
+}
+
+/*BOTTOM half form specifications. DRINKS PAGE*/
+.formbdrink {
+    width: 80%;
+    height: 90%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-left: 8.7%;
+    margin-top: -24px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    background: #faffc6;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+    position: relative;
+    opacity: 1.0;
+}
+
+/*TOP half form specifications. FOODS PAGE*/
+.formtfood {
+    width: 80%;
+    height: 90%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-left: 8.7%;
+    margin-top: -24px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    background: linear-gradient(#ff0000, #870000);
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+    position: relative;
+    opacity: 1.0;
+}
+
+/*BOTTOM half form specifications. FOODS PAGE*/
+.formbfood {
+    width: 80%;
+    height: 90%;
+    display: inline-block;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-left: 8.7%;
+    margin-top: -24px;
+    margin-bottom: 50px;
+    vertical-align: top;
+    background: #faffc6;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    color: black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 12px;
+    position: relative;
+    opacity: 1.0;
+}
+
+/*Heading background color and 5% transparency.*/
+header {
+    background: radial-gradient(#FBA100 60%, #bc7901);
+    opacity: 0.95;
+}
+
+/*Body background image and settings. HOME PAGE*/
+.home-body {
+    background-image: url("https://static.pexels.com/photos/326279/pexels-photo-326279.jpeg");
+    background-color: #000000;
+    width: 100%;
+    min-height:100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: auto;
+    padding:0;
+    overflow: scroll;
+}
+
+/*Icon positionings for FOOD and DRINK page */
+.icon {
+    width:70px;
+    height:70px;
+    float: right;
+    padding-right: 20px;
+    margin-top: -130px;
+}
+
+ /*Default text box style.*/
+input[type=text] {
+    width: 260px;
+    background-color: white;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 2px;
+    margin-top: -80px;
+    
+}
+
+/*Attributes regarding main content space of page. EVERY PAGE*/
+main { 
+    background: radial-gradient(#F2F2F2 80%, #ccc9c9);
+    background-color: #F2F2F2;
+    border-style: groove;
+    border: 5px solid #6BBAA7; /*Blue*/
+    opacity: 0.965;
+    transition: 1s opacity;
+    height: 100%;
+    width: 93%;
+    margin: auto;
+    box-shadow: 2px 2px 5px black;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+}
+
+/*Text and color alteration for nav bar.*/
+.nav { 
+    overflow: hidden;
+    background-color: #6BBAA7; /*Blue*/
+    width: 100%;
+    text-shadow: 2px 2px #000000;
+}
+
+/*Text formatting for list elements in nav bar.*/
+.nav li { 
+    float: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 23.5%;
+}
+
+/*Color of menu item when hovered over by mouse. NEEDS TO BE FIXED*/
+.nav li:hover { 
+    background-color: #a8d6cb;
+    transition: 0.25s;
+}
+
+/*Shrinks nav item when clicked on for visual aid.*/
+.nav li:active {
+    transform: scale(.95); 
+}
+
+/*Headings used for div boxes within main.*/
+#pheading {
+    font-size: 45px;
+    font-family: 'Just Another Hand', cursive; 
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Font size and type for app title. ALL PAGES */
+.site-title { 
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-style: normal;
+    font-size: 100px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: -32px;
+    text-shadow: 2px 2px #000000;
+}
+
+/*Basic table attributes*/
+table {
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*Table data attributes*/
+table, td {
+    font-size: 19px;
+    font-family: 'Itim', cursive;
+    font-style: normal;
+    text-align: left;
+    background-color: #faffc6;
+    color: black;
+    text-shadow: none;
+}
+
+/*Table header attributes*/
+table, th {
+    font-size: 32px;
+    font-family: 'Just Another Hand', cursive;
+    font-style: italic;
+    text-align: left;
+    background: #ff2323;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+/*Table header and data attributes*/
+table, th, td {
+    border-bottom: 1px solid grey;
+    border-right: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

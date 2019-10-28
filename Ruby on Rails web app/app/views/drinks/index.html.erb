@@ -1,0 +1,33 @@
+<!--
+@title index.html.erb
+@author The Stake Drivers
+@description   --Drinks HTML page.
+-->
+
+<!DOCTYPE html> <!-- BEGINNING OF PROGRAM -->
+<head>
+	<title>EZ Eats - Drinks</title> <!-- Title of page -->
+	<%= render 'foods/style' %> <!-- RENDERS fonts and stylesheet from partial. -->
+</head>
+
+<body class="drinks-body"> <!-- CLASS for body of page. -->
+    <%= render 'foods/header' %>
+    <main>
+        <div class="boxedblue"><h2>&diams; FIND DRINK RECIPES &diams;<h2></div>
+        <form class= "formdrink"> <!-- CLASS for drink form -->
+            <div class= "formtdrink"> <!-- CLASS for top portion of form -->
+                <p id="pheading">ENTER DRINK INGREDIENTS HERE:</p>
+                <img class = "icon" src="https://cdn4.iconfinder.com/data/icons/buffet-set/100/drink-512.png" alt="Drink">
+				<%= render 'search' %>
+            </div>
+            <div class= "formbdrink"> <!-- CLASS for bottom results. -->
+                <p id="pheading">RESULTS:</p>
+				<% @drinks.each do |f| %><p><b>
+				<%= f.name %>: </b>
+				<%= f.d_ingredients %></p>
+				<% end %>
+            </div>
+        </form>
+    </main>
+    <%= render 'foods/foot' %> <!-- RENDERS all footer info. -->
+</body>

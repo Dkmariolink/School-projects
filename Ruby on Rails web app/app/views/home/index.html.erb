@@ -1,0 +1,21 @@
+<!--
+@title index.html.erb
+@author The Stake Drivers
+@description   --Home HTML page.
+-->
+
+<!DOCTYPE html> <!-- BEGINNING OF PROGRAM -->
+<head>
+	<title>EZ Eats - Home</title> <!-- Title of page -->
+	<%= render 'foods/style' %> <!-- RENDERS fonts and stylesheet from partial. -->
+</head>
+
+<body class = "home-body"> <!-- CLASS for body of page. -->
+    <%= render 'foods/header' %>
+    <main>
+        <% food = @foods.first %>
+        <div class="boxedblue"><h2>&diams; THE COOKBOOK &diams;</h2></div><!-- Content will go here -->
+        <%= render 'foods/table' %> <!-- RENDERS all table info. -->
+    </main>
+    <%= render 'foods/foot' %> <!-- RENDERS all footer info. -->
+</body>
